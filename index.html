@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Manju K-Protfolio</title>
+<style>
+body{
+font-family:'Lucida Sans','Lucida Sans Regular',Lucida Grande','Lucida Sans Unicode',Genava,Verdana,Sans-serif;
+margin:0;
+padding:0;
+background-color:#ffffff;
+}
+header{
+background-color:#0b68d1;
+color:#fff;
+text-align:center;
+padding:2rem 0;
+position:relative;
+}
+.header-content h1{
+font-size:2.5rem;
+}
+.profile-picture{
+width:100px;
+height:100px;
+border-radius:75%;
+object-fit:cover;
+position:absolute;
+top:45px;
+left:100px;
+}
+nav{
+background-color:
+#333(243,70,70);
+color:#333333e8;
+text-align:center;
+}
+nav ul li{
+display:inline;
+margin:0 20px;
+}
+nav ul li a{
+text-decoration:none;
+color:black;
+}
+.section-content{
+background-color:#0b68d1;
+padding:2rem;
+margin:1rem;
+border-radius:20px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.download-button{
+background-color:#333;
+color:#fff;
+padding:0.5rem 1rem;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
+}
+.download-button:hover{
+background-color:rgb(238,22,33);
+}
+footer{
+text-align:center;
+padding:1rem 0;
+background-color:#333;
+color:#fff;
+}
+ul{
+list-style:lower-greek;
+padding-left:20px;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="header-content">
+<img src="C:\Users\Admin\Pictures\Camera\IMG2021.png"alt="your profile picture"class="profile-picture">
+<h1>MANJU K</h1>
+<p>Computer Science Student</p>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="#About">About</a></li>
+<li><a href="#Education">Education</a></li>
+<li><a href="#Skills">Skills</a></li>
+<li><a href="#Resume">Resume</a></li>
+</ul>
+</nav>
+<section id="About">
+<div class="section-content">
+<h2>About me</h2>
+<p>Hi everyone...!</p>
+<p>This is My Project</p>
+<p>I am a computer science student</P>
+</div>
+</section>
+<section id="Education">
+<div class="section-content">
+<h2>Education</h2>
+<p>Rani Anna Government college for women,Tirunelveli-Bsc.computer Science</p>
+<table border="1">
+<tr>
+<th>Degree</th>
+<th>College</th>
+<th>Department</th>
+</tr>
+<tr>
+<th>10TH</th>
+<th>GOVERNMENT SCHOOL</th>
+<th>Null</th>
+</tr>
+<th>12TH</th>
+<th>MIDDLE SCHOOL</th>
+<th>CS</th>
+</tr>
+<tr>
+<th>BSC</th>
+<th>GOVERNMENT ARTS AND SCIENCE COLLEGE</th>
+<th>CS</th>
+</tr>
+</table>
+</div>
+</section>
+<section id="Skills">
+<div class="section-content">
+<h2>Skills</h2>
+<ul>
+<li>1.Python</li>
+<li>2.Html</li>
+<li>3.Css</li>
+<li>4.Java Script</li>
+<li>5.Basic c and c++</li>
+</ul>
+</div>
+</section>
+<section id="Resume">
+<center>
+<div class="section-content">
+<h2>Resume</h2>
+</div>
+</center>
+</section>
+<footer>
+<p>&copy;2023 Manju</p>
+</footer>
+<script>
+document.query(SelectorAll('a[href^="#"]).forEach(anchor=>{anchor.addEventListener('click',function(e)
+{
+e.preventDefault();
+const targetzId=this.getAttribute('href').substring(1);
+const targetElement=document.getElementById(targetId);
+if(targetElement){
+window.scrollTo({
+top:targetElement.offsetTop,behavior:'smooth'
+});
+}
+});
+});
+</script>
+</body>
+</html>
